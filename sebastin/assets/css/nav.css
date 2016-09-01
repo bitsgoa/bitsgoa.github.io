@@ -1,0 +1,107 @@
+
+ul { 
+    position: relative;
+}
+
+#magic-line { 
+    position: absolute;
+    bottom: 0px;
+    top: 62px;
+    left: 0;
+    border-bottom: 2px solid #fff;
+
+}
+
+/* ==========================================================================
+Screenshots
+========================================================================== */
+.screenshots .row{
+    margin-bottom: 0px;
+}
+.screenshots ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.screenshots ul li {
+    float: left;
+    list-style: none;
+
+}
+.screenshots figure {
+    position: relative;
+    overflow: hidden;
+    margin: 6px 0px;
+        
+}
+.screenshots figure img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.screenshots figure:hover img, .screenshots figure:focus img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.screenshots figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25% 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: rgba(32, 44, 64, 0.68);
+    text-align: center;
+    font-size: 15px;
+    opacity: 0;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.screenshots figcaption a {
+    color: #fff;
+}
+.screenshots figcaption a:hover, .screenshots figcaption a:focus {
+    color: #73d0da;
+    
+}
+.screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
+    opacity: 1;
+}
+.visible {
+    opacity: 1;
+}
+.screenshots figure.cs-hover figcaption {
+    opacity: 1;
+}
+.screenshots figcaption i {
+        font-size: 24px;
+        line-height: 37px;
+        margin: 10px;
+}
+.screenshots figcaption p {
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.screenshots figcaption .caption-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -100px;
+    width: 200px;
+    -webkit-transform: translate(0px, 15px);
+    -ms-transform: translate(0px, 15px);
+    transform: translate(0px, 15px);
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.screenshots figure:hover figcaption .caption-content, .screenshots figure:focus figcaption .caption-content {
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+
