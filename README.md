@@ -1,5 +1,7 @@
 # bits.github.io
 
+NOTE: If you have any problems open an issue in this repo, if you dont know what "opening an issue" is mail me the problem at seth.mridul@gmail.com 
+
 If you are familiar with HTML/CSS and git go ahead and submit a PR for your webpage.
 Or if you just want to upload your CV fill this form https://docs.google.com/forms/d/1RKfUWxxeN0bVcmrcjoNOHA0tbHCmf9D_DtA1rZ2IhA0 and you will get a webpage (bitsgoa.github.io/yourname) with your CV.
 
